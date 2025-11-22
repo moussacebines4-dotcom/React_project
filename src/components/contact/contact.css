@@ -13,7 +13,8 @@
   width: 350px;
   margin: 50px auto;
   padding: 30px;
-  background-color: #fff0f6; /* fond rose très clair */
+  background-color: #fff0f6;
+  /* fond rose très clair */
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
   display: flex;
@@ -24,7 +25,8 @@
 .Form label {
   margin-bottom: 6px;
   font-weight: 700;
-  color: #cc007a; /* rose foncé */
+  color: #cc007a;
+  /* rose foncé */
 }
 
 /* Les champs de saisie */
@@ -33,7 +35,8 @@
 .Form input[type="password"] {
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ffb6d9; /* bord rose clair */
+  border: 1px solid #ffb6d9;
+  /* bord rose clair */
   border-radius: 8px;
 
 }
@@ -48,25 +51,28 @@
 
 /* Bouton d'envoi */
 .Form input[type="submit"] {
-  background-color: #ff66b2; /* rose vif */
+  background-color: #ff66b2;
+  /* rose vif */
   color: white;
   padding: 12px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
-  
+
 }
 
 /* Effet au survol du bouton */
 .Form input[type="submit"]:hover {
-  background-color: #e0559d; /* rose plus foncé */
+  background-color: #e0559d;
+  /* rose plus foncé */
 }
 
 
 /* Conteneur principal */
 body {
-  background-color: #fff0f6; /* fond rose très clair */
+  background-color: #fff0f6;
+  /* fond rose très clair */
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -75,7 +81,8 @@ body {
 /* Titre principal */
 h1 {
   text-align: center;
-  color: #cc007a; /* rose foncé */
+  color: #cc007a;
+  /* rose foncé */
   margin-top: 50px;
   font-size: 2em;
   text-shadow: 1px 1px 4px rgba(255, 105, 180, 0.3);
@@ -83,25 +90,23 @@ h1 {
 
 /* Liste */
 ul {
- 
+
   list-style: none;
   padding: 0;
   max-width: 300px;
   margin: 40px auto;
-  background-color: #ffe6f2; /* bloc rose clair */
+  background-color: #ffe6f2;
+  /* bloc rose clair */
   border-radius: 15px;
 }
 
 
 /* Éléments de la liste */
 li {
- 
-  margin-bottom: 10px; 
+
+  margin-bottom: 10px;
   color: #5e093c;
   font-weight: 600;
   text-align: center;
- 
+
 }
-
-
-

@@ -3,6 +3,9 @@ import About from './components/about/About';
 import Calculatrice from './components/calculatrice/Calculator';
 import Contact from './components/contact/contact';
 import Service from './components/contact/Service';
+import EffectHook from './components/EffectHook';
+import EffectWIthCleanup from './components/EffectWIthCleanup';
+import EffectWithParents from './components/EffectWithParents';
 import ExoState from './components/ExoState';
 import UseStateHook from './components/UseStateHook';
 import Home from './Home';
@@ -10,17 +13,20 @@ import Home from './Home';
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
       <h1>Welcome to my project</h1>
-      <Home/>
-      <Contact/>
-      <Service/>
-      <About name = {"Ines"} age = {19} />
-      <About name = {"Dyhia"} age = {21} />
-      <Calculatrice note1 ={15} note2 ={12}/>
+      {/* <Home />
+      <Contact />
+      <Service />
+      <About name={"Ines"} age={19} />
+      <About name={"Dyhia"} age={21} />
+      <Calculatrice note1={15} note2={12} />
 
-      <UseStateHook/>
-      <ExoState/>
+      <UseStateHook />
+      <ExoState />
+      <EffectHook/>
+      <EffectWithParents/> */}
+      <EffectWIthCleanup/>
 
     </div>
   );

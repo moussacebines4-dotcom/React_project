@@ -5,7 +5,7 @@ import Contact from './components/contact/contact';
 import Service from './components/contact/Service';
 import EffectHook from './components/EffectHook';
 import EffectWIthCleanup from './components/EffectWIthCleanup';
-import EffectWithParents from './components/EffectWithParents';
+import EffectWithParametres from './components/EffectWithParametres';
 import ExoState from './components/ExoState';
 import UseStateHook from './components/UseStateHook';
 import Home from './Home';
@@ -25,7 +25,8 @@ function App() {
       <UseStateHook />
       <ExoState />
       <EffectHook/>
-      <EffectWithParents/> */}
+       */}
+      <EffectWithParametres/>
       <EffectWIthCleanup/>
 
     </div>

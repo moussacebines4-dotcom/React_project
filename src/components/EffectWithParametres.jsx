@@ -1,6 +1,6 @@
 import React ,{useState ,useEffect}from 'react'
 
-export default function EffectWithParents() {
+export default function EffectWithParametres() {
 
     const [count, setcount] = useState(0)
 
